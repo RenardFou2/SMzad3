@@ -1,0 +1,13 @@
+
+p
+java:S1450
+"SRemove the "done" field and declare it as a local variable in the relevant methods.(õĞªÅ8î¡ŞÛº1
+p
+java:S1450"SRemove the "name" field and declare it as a local variable in the relevant methods.(Ë¥¼8áÊ¯Ûº1
+H
+java:S1068"&Remove this unused "id" private field.(Æí¶áşÿÿÿÿ8ÃŞ©ºº1
+E
+java:S1068"(Remove this unused "name" private field.(Ë¥¼8é¤ªºº1
+E
+java:S1068
+"(Remove this unused "done" private field.(õĞªÅ8Ÿƒ«ºº1
