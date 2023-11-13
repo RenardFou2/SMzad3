@@ -9,3 +9,15 @@ e
 5app/src/main/java/com/example/smzad3/TaskStorage.java,7\7\77f7ab18d8b7140969b4aacfe98bae31bb7d0a94
 j
 :app/src/main/java/com/example/smzad3/TaskListFragment.java,6\a\6abef2cb5a0a4199ce2071918f1569e57a0f4966
+p
+@app/src/main/java/com/example/smzad3/SingleFragmentActivity.java,6\2\6299fe382570f8d431d984c17b14df49950a8043
+D
+app/build.gradle.kts,d\2\d2a4383452aad84a18429a5844d31330a012a9e6
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+j
+:app/src/main/java/com/example/smzad3/TaskListActivity.java,d\c\dc40acaf1ed19165e08bafd38458c980432e0129
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e

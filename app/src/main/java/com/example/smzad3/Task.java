@@ -26,7 +26,7 @@ public class Task {
         return id;
     }
     public boolean isDone(){
-        return isDone();
+        return done;
     }
     public void setDone(boolean finished){
         done = finished;

@@ -24,6 +24,7 @@ public class TaskFragment extends Fragment {
     private CheckBox doneCheckBox;
     public static final String ARG_TASK_ID = "task_id";
     private Task task;
+    public TaskFragment() {}
 
     public static TaskFragment newInstance(UUID taskId) {
         Bundle bundle = new Bundle();
@@ -43,33 +44,31 @@ public class TaskFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-
         View view = inflater.inflate(R.layout.fragment_task, container, false);
 
         dateButton = view.findViewById(R.id.task_date);
-        dateButton.setText(task.getDate().toString());
-        dateButton.setEnabled(false);
-
-        doneCheckBox = view.findViewById(R.id.task_done);
-        doneCheckBox.setChecked(task.isDone());
-        doneCheckBox.setOnCheckedChangeListener((buttonView, isChecked) -> task.setDone(isChecked));
         nameField = view.findViewById(R.id.task_name);
+        doneCheckBox = view.findViewById(R.id.task_done);
+
+        nameField.setText(task.getName());
         nameField.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-
             }
-
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 task.setName(charSequence.toString());
             }
-
             @Override
             public void afterTextChanged(Editable editable) {
-
             }
         });
+
+        doneCheckBox.setChecked(task.isDone());
+        doneCheckBox.setOnCheckedChangeListener((buttonView, isChecked) -> task.setDone(isChecked));
+
+        dateButton.setText(task.getDate().toString());
+        dateButton.setEnabled(false);
         return view;
     }
 

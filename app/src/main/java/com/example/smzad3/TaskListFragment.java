@@ -19,7 +19,7 @@ public class TaskListFragment extends Fragment {
     public static final String KEY_EXTRA_TASK_ID = "tasklistfragment.task_id";
     private RecyclerView recyclerView;
     private TaskAdapter adapter;
-
+    public TaskListFragment() {}
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
