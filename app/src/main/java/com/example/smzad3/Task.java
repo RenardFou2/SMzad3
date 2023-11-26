@@ -8,11 +8,14 @@ public class Task {
     private String name;
     private Date date;
     private boolean done;
-
+    private Category category;
     public Task(){
         id = UUID.randomUUID();
         date = new Date();
+        category = Category.HOME;
     }
+    public void setCategory(Category category){ this.category=category;}
+    public Category getCategory(){ return category; }
     public void setName(String n){
         name = n;
     }
@@ -21,6 +24,9 @@ public class Task {
     }
     public Date getDate(){
         return date;
+    }
+    public void setDate(Date date){
+        this.date = date;
     }
     public UUID getId(){
         return id;

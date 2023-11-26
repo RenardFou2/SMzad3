@@ -1,15 +1,20 @@
 
 £
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÑž¢þÿÿÿÿ8ÁÊÿÔ¼1
+java:S1186'"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÑž¢þÿÿÿÿ8ºÿ¤åÀ1
 {
-java:S1450"YRemove the "dateButton" field and declare it as a local variable in the relevant methods.(ˆŸªùùÿÿÿÿ8ðô‹Š»1
+java:S1450$"^Remove the "categorySpinner" field and declare it as a local variable in the relevant methods.(É¿«©8¾ÿ¤åÀ1
 }
-java:S1450"[Remove the "doneCheckBox" field and declare it as a local variable in the relevant methods.(§¨âŸýÿÿÿÿ8ñô‹Š»1
+java:S1450""[Remove the "doneCheckBox" field and declare it as a local variable in the relevant methods.(§¨âŸýÿÿÿÿ8¾ÿ¤åÀ1
 z
-java:S1450"XRemove the "nameField" field and declare it as a local variable in the relevant methods.(žâê¸þÿÿÿÿ8¤™ÒÔ¼1
+java:S1450"XRemove the "nameField" field and declare it as a local variable in the relevant methods.(žâê¸þÿÿÿÿ8¾ÿ¤åÀ1
+]	java:S125 "<This block of commented-out lines of code should be removed.(É’„¦ÿÿÿÿÿ8Ãÿ¤åÀ1
 Y
-java:S1874("7Remove this use of "getSerializable"; it is deprecated.(½‚°½ýÿÿÿÿ8ÁÕŽŠ»1
-ž
-java:S11868"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(á¬‡Ý8ï‡œÕ¼1
+java:S1874:"7Remove this use of "getSerializable"; it is deprecated.(½‚°½ýÿÿÿÿ8Îÿ¤åÀ1
+]	java:S125D"<This block of commented-out lines of code should be removed.(ºÔõƒþÿÿÿÿ8Ðÿ¤åÀ1
 £
-java:S1186?"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×åó«øÿÿÿÿ8ï‡œÕ¼1
+java:S1186S"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×þÿÿÿÿ8Òÿ¤åÀ1
+ž
+java:S1186g"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(á¬‡Ý8Øÿ¤åÀ1
+£
+java:S1186n"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×åó«øÿÿÿÿ8Øÿ¤åÀ1
+X	java:S125u"<This block of commented-out lines of code should be removed.(þÃÍš8Ûÿ¤åÀ1

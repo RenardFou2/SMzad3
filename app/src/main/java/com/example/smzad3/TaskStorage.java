@@ -10,11 +10,18 @@ public class TaskStorage {
 
     private TaskStorage(){
         tasks = new ArrayList<Task>();
-        for (int i = 1; i <= 15; i++){
+        for (int i = 1; i <= 6; i++){
             Task task = new Task();
             task.setName("Pilne zadanie numer "+i);
             task.setDone(i % 3 == 0);
             tasks.add(task);
+
+            if (i % 3 == 0){
+                task.setCategory(Category.STUDIES);
+            }
+            else{
+                task.setCategory(Category.HOME);
+            }
         }
     }
     public static TaskStorage getInstance() { return taskStorage ; }
@@ -27,5 +34,9 @@ public class TaskStorage {
             if (task.getId().equals(i)) return task;
         }
         return null;
+    }
+
+    public void addTask(Task task){
+        tasks.add(task);
     }
 }

@@ -1,18 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="50dp"
     android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/task_done_2"
+        android:layout_width="24dp"
+        android:layout_height="24dp" />
 
     <TextView
         android:id="@+id/task_item_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="1" />
+        android:layout_weight="1"
+        android:layout_toLeftOf="@id/imageViewCategory"
+        android:layout_toRightOf="@id/task_done_2"
+        android:layout_toStartOf="@+id/imageViewCategory"/>
+
+
+    <ImageView
+        android:id="@+id/image_view_category"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        tools:srcCompat="@drawable/ic_house" />
 
     <TextView
         android:id="@+id/task_item_date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1" />
+
 </LinearLayout>
